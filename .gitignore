@@ -1,0 +1,8 @@
+# Ignore all hidden files/folders
+.*
+
+# But track these specific ones
+!.gitignore
+!.gitattributes
+!.env.example
+!.env
