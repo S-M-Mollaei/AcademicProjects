@@ -1,0 +1,1 @@
+to see all the graphs, just simply run Galton_Wastson.py file.
