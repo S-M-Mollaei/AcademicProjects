@@ -1,0 +1,11 @@
+--2022-01-03 17:43:15--  https://raw.githubusercontent.com/dbdmg/data-science-lab/master/datasets/2d-synthetic.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 19259 (19K) [text/plain]
+Saving to: '2d-synthetic.csv.1'
+
+     0K .......... ........                                   100%  349K=0.05s
+
+2022-01-03 17:43:15 (349 KB/s) - '2d-synthetic.csv.1' saved [19259/19259]
+
