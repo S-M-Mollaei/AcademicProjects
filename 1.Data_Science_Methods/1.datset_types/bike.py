@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 17 18:43:16 2021
-
-@author: Dmehr
-"""
 
 import json
 import sys

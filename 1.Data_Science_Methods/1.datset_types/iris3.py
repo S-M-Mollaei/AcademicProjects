@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 14 22:52:49 2021
-
-@author: Dmehr
-"""
 
 import csv
 import math

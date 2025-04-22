@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 17 21:16:26 2021
-
-@author: Dmehr
-"""
 
 import csv
 import urllib.request
