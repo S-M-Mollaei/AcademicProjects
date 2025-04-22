@@ -1,0 +1,10 @@
+import commons
+import parser
+from datasets.train_dataset import TrainDataset
+
+args = parser.parse_arguments()
+groups = [TrainDataset(args, args.train_set_folder, M=args.M, alpha=args.alpha, N=args.N, L=args.L,
+                       current_group=n, min_images_per_class=args.min_images_per_class) for n in range(args.groups_num)]
+dataloader = commons.InfiniteDataLoader(groups[current_group_num], num_workers=args.num_workers,
+                                            batch_size=args.batch_size, shuffle=True,
+                                            pin_memory=(args.device == "cuda"), drop_last=True)
